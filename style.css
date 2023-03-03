@@ -1,0 +1,109 @@
+:root {
+    --blueBlockHeight: 400px;
+}
+ #backgroundImg img{
+     filter: brightness(50%);
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+#test{
+    font-size: 500%;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top:20%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+strong{
+    font-weight: bold;
+}
+#all{
+    height: auto;
+    position: relative;
+}
+
+#underBG img{
+    filter: brightness(50%);
+    width: 100%;
+    height: 100%;
+}
+#Undertest{
+    font-size: 500%;
+    text-align: center;
+    color: #ffffff;
+    position: absolute;
+    top:55%;
+    left: 66%;
+    transform: translate(-50%,50%);
+}
+
+
+.loader {
+    display: inline-block;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #00ff66;
+    border-bottom: 16px solid #25fd01;
+    width: 80px;
+    height: 80px;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    z-index: 10;
+}
+
+@-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#fb{
+    cursor: pointer;
+}
+#fb:hover img{
+   transform: scale(5,5);
+}
+
+ #twitter{
+     cursor: pointer;
+ }
+
+ #IG{
+      cursor: pointer;
+  }
+
+ #YT{
+     cursor: pointer;
+ }
+
+ #TT{
+     cursor: pointer;
+ }
+
+ @media screen and (max-width: 1250px){
+     strong{
+         font-size: 80%;
+     }
+     strong{
+         font-size: 80%;
+     }
+ }
+@media screen and (max-width: 1000px){
+    strong{
+        font-size: 50%;
+    }
+    strong{
+        font-size: 50%;
+    }
+}
